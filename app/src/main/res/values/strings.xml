@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Rosana Hotel</string>
+    <string-array name="rooms_type">
+        <item>Standard</item>
+        <item>Classic</item>
+        <item>Superior</item>
+        <item>Family Suite</item>
+    </string-array>
+    <string-array name="num_rooms">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>

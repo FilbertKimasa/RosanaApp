@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hotelrosana.app.ContactsActivity"
+    android:background="@color/colorBackgroundDark"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <ListView
+        android:id="@+id/list_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:verticalScrollbarPosition="right"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:layoutMode="clipBounds"
+        android:scrollbarThumbVertical="@color/colorAccent"
+        android:scrollbarSize="@dimen/scrollbarSize"
+        android:scrollbarStyle="outsideOverlay"
+        android:choiceMode="singleChoice"
+        android:divider="@color/colorBackgroundDark"
+        android:dividerHeight="5dp"
+        android:background="@android:color/transparent" />
+
+</LinearLayout>

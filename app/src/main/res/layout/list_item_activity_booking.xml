@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/listItem"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    android:padding="@dimen/activity_vertical_padding">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Type of Rooms:"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:textAlignment="viewStart"
+            android:id="@+id/roomsTypeLabel" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/roomsType"
+            android:layout_toRightOf="@id/roomsTypeLabel"
+            android:gravity="left|top"
+            android:layout_marginBottom="15dp" />
+
+        <TextView
+            android:text="Number of Rooms:"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/roomsTypeLabel"
+            android:layout_marginBottom="20dp"
+            android:textAlignment="viewStart"
+            android:id="@+id/numRoomsLabel" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/numRooms"
+            android:layout_toRightOf="@id/numRoomsLabel"
+            android:layout_marginBottom="20dp"
+            android:layout_below="@id/roomsType"
+            android:gravity="left|top" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:text="Date of Arrival:"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:textAlignment="viewStart"
+        android:id="@+id/dateOfArrivalLabel" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="dd-mm-yyyy"
+        android:textSize="16sp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/dateOfArrival" />
+
+    <TextView
+        android:text="Date of Departure:"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:textAlignment="viewStart"
+        android:id="@+id/dateOfDepartureLabel" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="dd-mm-yyyy"
+        android:textSize="16sp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/dateOfDeparture" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit"
+        android:textAllCaps="false"
+        android:layout_gravity="center_horizontal"
+        android:text="Check Availability"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/colorBackground"
+        android:padding="@dimen/activity_horizontal_padding"
+        android:layout_marginBottom="20dp"/>
+
+</LinearLayout>

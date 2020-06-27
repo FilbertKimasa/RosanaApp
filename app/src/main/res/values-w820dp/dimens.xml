@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="activity_horizontal_margin">32dp</dimen>
+    <dimen name="activity_zero_margin_top">-32dp</dimen>
+    <dimen name="activity_zero_margin_left">-32dp</dimen>
+    <dimen name="activity_horizontal_padding">20dp</dimen>
+    <dimen name="activity_vertical_padding">20dp</dimen>
+    <dimen name="scrollbarSize">1dp</dimen>
+    <dimen name="imageWidth">180dp</dimen>
+</resources>
